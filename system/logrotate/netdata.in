@@ -3,6 +3,7 @@
 	missingok
 	rotate 14
 	compress
+ 	#new_data
 	delaycompress
 	notifempty
 	sharedscripts
