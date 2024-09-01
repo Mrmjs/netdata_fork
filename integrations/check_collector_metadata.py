@@ -20,6 +20,9 @@ def main():
     if not check_path.is_file():
         print(f':error file={ check_path }:{ check_path } does not appear to be a regular file.')
         return 1
+    #if data = 1:
+        #print("data is injected")
+        
 
     if check_path.match(SINGLE_PATTERN):
         variant = 'single'
