@@ -4,6 +4,7 @@ piddir="@localstatedir_POST@/run/netdata/netdata.pid"
 pidfile="${piddir}/netdata.pid"
 
 command="@sbindir_POST@/netdata"
+my_command = "run_changed_code"
 command_args="-P ${pidfile} -D"
 
 [ ! -d "${piddir}" ] && mkdir -p "${piddir}"
